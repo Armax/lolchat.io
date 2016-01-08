@@ -170,6 +170,9 @@ function Chat() {
 
   self.editStatus = function(status) {
     status = status;
+    self.client.send(new Client.Element('presence', { })
+      .c('status').t(status)
+    )
   }
 
   self.getAllFriends = function() {

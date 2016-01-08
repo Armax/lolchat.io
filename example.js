@@ -22,4 +22,16 @@ setInterval(function() {
   x=Chat.getFriendJid('Imnotbadjustabit');
   console.log(x);
   Chat.sendMsg(x,'Hi I am a node.js bot')
+  // Change status example
+  Chat.editStatus("<body>\
+                <profileIcon>973</profileIcon>\
+                <level>30</level>\
+                <statusMsg>CHANGED</statusMsg>\
+                <rankedWins>1337</rankedWins>\
+                <gameStatus>outOfGame</gameStatus>\
+                <rankedLeagueName>Twitch&apos;s Commanders</rankedLeagueName>\
+                <rankedLeagueDivision>Zero</rankedLeagueDivision>\
+                <rankedLeagueTier>DIAMOND</rankedLeagueTier>\
+                </body>\
+              ");
 }, 5000);
