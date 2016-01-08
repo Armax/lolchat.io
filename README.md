@@ -26,15 +26,18 @@ user and password are self-explanatory, the last argument must be a valid server
 ### Functions
 most of them are self-explanatory
 <br>
+#### Get JID of a friend
 ```javascript
 getFriendJid(friend)
 ```
-friend: summoner name<br><br>
+friend: summoner name<br>
+#### Send message
 ```javascript
 sendMsg(to, msg)
 ```
 to: must be a valid jid<br>
-msg: message<br><br>
+msg: message<br>
+#### Edit online status
 ```javascript
 editStatus(status)
 ```
@@ -56,8 +59,8 @@ Available Commands:
 * ```<rankedLeagueDivision>``` | String | Can be long but too long (300+ words) will disconnect you.
 * ```<rankedLeagueTier>``` | CHALLENGER | DIAMOND | PLATINUM | GOLD | SILVER | BRONZE |
 * ```<timeStamp>``` | Integer | The time the current game started.
-* ```<skinname>``` | EXISTING Champion Name | The champion you are currently playing.
-Example Status
+* ```<skinname>``` | EXISTING Champion Name | The champion you are currently playing.<br>
+Example Status:<br>
 A common status that will set you up to be lv30, out of game and in the league Twitch's Commanders in Diamond DIvision Zero with 1337 ranked wins and the status message "XMPP Client".
 ```xml
 <body>
@@ -72,13 +75,18 @@ A common status that will set you up to be lv30, out of game and in the league T
 </body>
 ```
 from: http://leagueoflegends.wikia.com/wiki/User:Sevenix/XMPP_Chat
-
+<br>
+#### Get current status
 ```javascript
 getCurrentStatus(status)
 ```
-status: must be a valid status<br><br>
+status: must be a valid status<br>
+#### Get full friends list
 ```javascript
 getAllFriends()
+```
+#### Get online friends
+```javascript
 getOnlineFriends()
 ```
 
