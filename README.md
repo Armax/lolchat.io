@@ -59,7 +59,8 @@ Available Commands:
 * ```<rankedLeagueDivision>``` | String | Can be long but too long (300+ words) will disconnect you.
 * ```<rankedLeagueTier>``` | CHALLENGER | DIAMOND | PLATINUM | GOLD | SILVER | BRONZE |
 * ```<timeStamp>``` | Integer | The time the current game started.
-* ```<skinname>``` | EXISTING Champion Name | The champion you are currently playing.<br>
+* ```<skinname>``` | EXISTING Champion Name | The champion you are currently playing.
+<br>
 Example Status:<br>
 A common status that will set you up to be lv30, out of game and in the league Twitch's Commanders in Diamond DIvision Zero with 1337 ranked wins and the status message "XMPP Client".
 ```xml
