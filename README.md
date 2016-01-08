@@ -26,18 +26,18 @@ user and password are self-explanatory, the last argument must be a valid server
 ### Functions
 most of them are self-explanatory
 <br>
-#### Get JID of a friend
+##### Get JID of a friend
 ```javascript
 getFriendJid(friend)
 ```
 friend: summoner name<br>
-#### Send message
+##### Send message
 ```javascript
 sendMsg(to, msg)
 ```
 to: must be a valid jid<br>
 msg: message<br>
-#### Edit online status
+##### Edit online status
 ```javascript
 editStatus(status)
 ```
@@ -76,16 +76,16 @@ A common status that will set you up to be lv30, out of game and in the league T
 ```
 from: http://leagueoflegends.wikia.com/wiki/User:Sevenix/XMPP_Chat
 <br>
-#### Get current status
+##### Get current status
 ```javascript
 getCurrentStatus(status)
 ```
 status: must be a valid status<br>
-#### Get full friends list
+##### Get full friends list
 ```javascript
 getAllFriends()
 ```
-#### Get online friends
+##### Get online friends
 ```javascript
 getOnlineFriends()
 ```
