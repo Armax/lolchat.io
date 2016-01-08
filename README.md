@@ -85,3 +85,7 @@ Chat.events.on('onlineUpdate', function(name) {
   console.log('[i] update: ' + name);
 });
 ```
+
+## Contact me
+[@Arm4x](https://twitter.com/Arm4x)
+Feel free to contact me for help or anything else
