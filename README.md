@@ -59,7 +59,7 @@ Available Commands:
 * <skinname> | EXISTING Champion Name | The champion you are currently playing.
 Example Status
 A common status that will set you up to be lv30, out of game and in the league Twitch's Commanders in Diamond DIvision Zero with 1337 ranked wins and the status message "XMPP Client".
-<pre>
+```xml
 <body>
   <profileIcon>1</profileIcon>
   <level>30</level>
@@ -70,8 +70,7 @@ A common status that will set you up to be lv30, out of game and in the league T
   <rankedLeagueDivision>Zero</rankedLeagueDivision>
   <rankedLeagueTier>DIAMOND</rankedLeagueTier>
 </body>
-</pre>
-<br><br>
+```
 from: http://leagueoflegends.wikia.com/wiki/User:Sevenix/XMPP_Chat
 
 ```javascript
