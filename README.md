@@ -70,9 +70,6 @@ getCurrentStatus(status)
 status: must be a valid status<br><br>
 ```javascript
 getAllFriends()
-```
-<br>
-```javascript
 getOnlineFriends()
 ```
 
