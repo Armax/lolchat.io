@@ -1,0 +1,17 @@
+{
+    
+  "name": "node-lol-chat",
+    
+  "version": "0.0.0",
+    
+  "description": "easy lib for league of legends chat",
+    
+  "keywords": ["node-xmpp-chat"],
+    
+  "author": "@Arm4x",
+
+  "dependencies": {
+    "node-xmpp-client": "^3.0.0"
+  }
+    
+}
