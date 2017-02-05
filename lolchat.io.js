@@ -15,7 +15,7 @@ var onlineFriends = {}; // SummonerName
 var SERVERS = {
   eu_west: 'chat.euw1.lol.riotgames.com',
   eu_ordic: 'chat.eun1.riotgames.com',
-  us: 'chat.na1.lol.riotgames.com',
+  us: 'chat.na2.lol.riotgames.com',
   pbe: 'chat.pbe1.lol.riotgames.com',
   oceania: 'chat.oc1.lol.riotgames.com',
   brazil: 'chat.br.lol.riotgames.com',
